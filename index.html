@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+  
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Boilerplate File
+    </title>
+    <link rel="stylesheet" href="styles.css">
+  </head>
+
+  <body>
+      <header>
+        
+        <div>
+          <h3 class="title">Color Scheme Generator</h3>
+        </div>
+
+        <div id="selectors" class="selectors">
+
+          <div class = 'seed-color'>
+            <input type="color" id="seed-color" name="seed-color" value="#f55a5a">
+          </div>
+          
+          <div class = 'scheme-mode'>
+            <select name="scheme-mode" id="scheme-mode">
+              <option value="monochrome">Monochrome</option>
+              <option value="monochrome-dark">Monochrome-dark</option>
+              <option value="monochrome-light">Monochrome-light</option>
+              <option value="analogic">Analogic</option>
+              <option value="complement">Complement</option>
+              <option value="analogic-complement">Analogic-complement</option>
+              <option value="triad">Triad</option>
+            </select>
+          </div>
+
+          <div class = 'submit'>
+            <button id = "submitBtn">Get Scheme</button>
+          </div>
+
+        <div>
+
+      </header>
+
+      <main class="color-display">
+        <div class = 'color' id='color1'>
+          <div>
+            <button>copy hex</button>
+          </div>
+        </div>
+        
+        <div class = 'color' id='color2'>
+          <div>
+            <button>copy hex</button>
+          </div>
+        </div>
+        
+        <div class = 'color' id='color3'>
+          <div>
+            <button>copy hex</button>
+          </div>
+        </div>
+        
+        <div class = 'color' id='color4'>
+          <div>
+            <button>copy hex</button>
+          </div>
+        </div>
+        
+        <div class = 'color' id='color5'>
+          <div>
+            <button>copy hex</button>
+          </div>
+        </div>
+        
+      </main>
+   
+      <footer>
+        <div class="hex-display">
+          <p id="hd1">display hex</p>
+          <p id="hd2">display hex</p>
+          <p id="hd3">display hex</p>
+          <p id="hd4">display hex</p>
+          <p id="hd5">display hex</p>
+        </div>
+      </footer>
+      <script src="index.js" rel="js"></script>
+
+  </body>  
+
+</html> 
