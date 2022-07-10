@@ -22,7 +22,7 @@ function getScheme(){
     }
     
     console.log(fullScheme)
-    fetch(`https://www.thecolorapi.com/scheme?hex=ebf55b${fullScheme.seedColorHex}&mode=${fullScheme.schemeModeName}&count=${fullScheme.count}`,{ 
+    fetch(`https://www.thecolorapi.com/scheme?hex=${fullScheme.seedColorHex}&mode=${fullScheme.schemeModeName}&count=${fullScheme.count}`,{ 
         method:"GET",
         headers: {
             'Content-Type' : 'application/json'
